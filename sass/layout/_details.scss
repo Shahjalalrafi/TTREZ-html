@@ -1,0 +1,29 @@
+.details-box {
+    color: $color-white;
+    text-align: center;
+    padding: 1.8rem;
+    .social-icon {
+        font-size: 5.6rem;
+        padding: 2rem;
+        border: 3px solid $color-white;
+        border-radius: 50%;
+        margin-bottom: 1.2rem;
+    }
+    .details-title {
+        font-size: 1.8rem;
+        color: #f7f7f7;
+        margin-bottom: 1.2rem;
+    }
+
+    .details-description {
+        font-size: 1.4rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .details-btn {
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 1.8rem;
+    }
+}    

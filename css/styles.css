@@ -26,6 +26,15 @@ body {
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  gap: 56px;
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .horizontal-bottom {
   width: 12rem;
   height: 2px;
@@ -42,10 +51,27 @@ img {
     flex-direction: column;
     gap: 3rem;
   }
+
+  .grid-cols-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-number {
+    padding: 3rem 2rem !important;
+  }
 }
 @media (max-width: 38em) {
   .navbar__navigation .navbar--links {
     flex-direction: column;
+  }
+
+  .grid-cols-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .section-number {
+    background-color: rebeccapurple;
+    background-image: none !important;
   }
 }
 .header {
@@ -125,6 +151,51 @@ img {
   color: #777;
 }
 
+.details-box {
+  color: #fff;
+  text-align: center;
+  padding: 1.8rem;
+}
+.details-box .social-icon {
+  font-size: 5.6rem;
+  padding: 2rem;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.details-box .details-title {
+  font-size: 1.8rem;
+  color: #f7f7f7;
+  margin-bottom: 1.2rem;
+}
+.details-box .details-description {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+.details-box .details-btn {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.number-box {
+  display: flex;
+  gap: 2.2rem;
+  align-items: center;
+  color: #fff;
+}
+.number-box .number-icon {
+  font-size: 6.2rem;
+}
+.number-box .number-details .number {
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+.number-box .number-details .number-greet {
+  font-size: 2.2rem;
+}
+
 .section-navbar {
   border-bottom: 1px solid #ddd;
 }
@@ -132,6 +203,19 @@ img {
 .section-about {
   text-align: center;
   padding: 9.6rem 0 0;
+}
+
+.section-details {
+  padding: 9.6rem 0;
+  background-image: linear-gradient(to right bottom, #578491, rgba(87, 132, 145, 0.5));
+}
+
+.section-number {
+  padding: 9.6rem 0;
+  background-image: url("../../img/number-bg.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=styles.css.map */

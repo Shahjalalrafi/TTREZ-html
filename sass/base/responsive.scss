@@ -3,6 +3,13 @@
         flex-direction: column;
         gap: 3rem
     }
+    .grid-cols-4 {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .section-number {
+        padding: 3rem 2rem !important;
+    }
 }
 
 
@@ -12,8 +19,16 @@
             .navbar--links {
                 flex-direction: column;
             }
-
         }        
+    }
+    .grid-cols-4 {
+        grid-template-columns: 1fr;
+    }
+
+    
+    .section-number {
+       background-color: rebeccapurple;
+       background-image: none !important;
     }
 }
 

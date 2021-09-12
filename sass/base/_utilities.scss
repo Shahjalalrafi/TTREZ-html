@@ -3,6 +3,15 @@
     margin: 0 auto;
 }
 
+.grid {
+    display: grid;
+    gap: 56px;
+}
+
+.grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .horizontal-bottom {
     width: 12rem;
     height: 2px;

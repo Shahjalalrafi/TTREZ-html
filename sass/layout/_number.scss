@@ -1,0 +1,19 @@
+.number-box {
+    display: flex;
+    gap: 2.2rem;
+    align-items: center;
+    color: $color-white;
+    .number-icon {
+        font-size: 6.2rem;
+    }
+
+    .number-details {
+        .number {
+            font-size: 4.2rem;
+            font-weight: 700;
+        }
+        .number-greet {
+            font-size: 2.2rem;
+        }
+    }
+}

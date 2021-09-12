@@ -6,3 +6,16 @@
     text-align: center;
     padding: 9.6rem 0 0;
 }
+
+.section-details {
+    padding: 9.6rem 0;
+    background-image: linear-gradient(to right bottom, $primary-color, rgba($primary-color, .5));
+}
+
+.section-number {
+    padding: 9.6rem 0;
+    background-image: url('../../img/number-bg.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
