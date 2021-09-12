@@ -43,14 +43,18 @@
         }
         .dots {
             position: absolute;
-            top: 110%;
+            top: 100%;
             left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, 2rem);
             .dot {
                 display: inline-block;
                 padding: .5rem;
-                background-color: green;
+                background-color: #777;
                 border-radius: 50%;
+                margin: 0 3px;
+                &.active {
+                    background-color: green;
+                }
             }
         }
     }

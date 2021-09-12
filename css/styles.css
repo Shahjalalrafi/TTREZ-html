@@ -72,7 +72,7 @@ img {
 
   .section-team {
     clip-path: none !important;
-    padding: 2.4rem 0 !important;
+    padding: 2.4rem 0 4.4rem !important;
   }
   .section-team .grid {
     gap: 2.2rem !important;
@@ -288,15 +288,46 @@ img {
 }
 .section-team .teams .dots {
   position: absolute;
-  top: 110%;
+  top: 100%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 2rem);
 }
 .section-team .teams .dots .dot {
   display: inline-block;
   padding: 0.5rem;
-  background-color: green;
+  background-color: #777;
   border-radius: 50%;
+  margin: 0 3px;
+}
+.section-team .teams .dots .dot.active {
+  background-color: green;
+}
+
+.portfolio .portfolio-desc {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.portfolio .portfolio-navigation .portfolio-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.portfolio .portfolio-navigation .portfolio-links .portfolio-link {
+  padding: 1.2rem 2.2rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #777;
+  cursor: pointer;
+}
+.portfolio .portfolio-navigation .portfolio-links .portfolio-link.active {
+  border: 0.2rem solid green;
+}
+.portfolio .grid {
+  gap: 3.6rem;
+}
+.portfolio .gallery {
+  padding: 32px 0;
 }
 
 .section-navbar {
@@ -330,6 +361,10 @@ img {
   padding: 9.6rem 0;
   background-color: #dbdbdb;
   clip-path: polygon(0 10%, 50% 10%, 52% 0%, 55% 10%, 100% 10%, 100% 100%, 0% 100%);
+}
+
+.section-portfolio {
+  padding: 9.6rem 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
