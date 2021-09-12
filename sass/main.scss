@@ -1,14 +1,10 @@
 @import "abstract/variables";
-@import "abstract/function";
-@import "abstract/mixins";
 
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
 @import "base/responsive";
 
-
-@import "components/button";
 
 @import "layout/header";
 @import "layout/navigation";
