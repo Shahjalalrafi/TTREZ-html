@@ -1,0 +1,13 @@
+.about {
+    &__title {
+        font-size: 4.4rem;
+        &--color {
+            color: $primary-color;
+        }
+    }
+    &__para {
+        font-size: 1.8rem;
+        margin: 4.4rem 0 2.2rem;
+        color: #777;
+    }
+}

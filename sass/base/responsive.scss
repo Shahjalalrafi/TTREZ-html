@@ -1,0 +1,19 @@
+@media (max-width: 56em) {
+    .navbar {
+        flex-direction: column;
+        gap: 3rem
+    }
+}
+
+
+@media (max-width: 38em) {
+    .navbar {
+        &__navigation {
+            .navbar--links {
+                flex-direction: column;
+            }
+
+        }        
+    }
+}
+
