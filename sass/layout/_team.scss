@@ -1,0 +1,59 @@
+.section-team {
+    .heading-secondary {
+        margin-top: 5rem;
+    }
+
+    .horizontal-bottom {
+        background-color: #777777;
+        margin-top: 1.2rem;
+        margin-bottom: 2.2rem;
+    }
+
+    .team-desc {
+        font-size: 2.2rem;
+        color: #777;
+        text-align: center;
+    }
+
+    .teams {
+        position: relative;
+        .team-box {
+            background-color: $color-white;
+            border-bottom: 3px solid green;
+            margin: 0 20px;
+            .team-details {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 2.2rem;
+                .team-info {
+                    .team-name {
+                        font-size: 2.2rem;
+                        color: #777;
+                    }
+                    .team-position {
+                        font-size: 1.8rem;
+                        color: #666;
+                    }
+                }   
+                .team-links {
+                    font-size: 2.2rem;
+                }    
+            }
+        }
+        .dots {
+            position: absolute;
+            top: 110%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            .dot {
+                display: inline-block;
+                padding: .5rem;
+                background-color: green;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    
+}

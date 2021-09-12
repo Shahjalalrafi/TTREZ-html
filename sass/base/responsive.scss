@@ -10,6 +10,20 @@
     .section-number {
         padding: 3rem 2rem !important;
     }
+
+    .logo-container {
+        .client-logo {
+            height: 2.2rem !important;
+        }
+    }
+    .section-team {
+        clip-path: none !important;
+        padding: 2.4rem 0 !important;
+        .grid {
+            gap: 2.2rem !important
+        }
+    }
+
 }
 
 
@@ -21,6 +35,9 @@
             }
         }        
     }
+    .grid-cols-3 {
+        grid-template-columns: 1fr;
+    }
     .grid-cols-4 {
         grid-template-columns: 1fr;
     }
@@ -29,6 +46,16 @@
     .section-number {
        background-color: rebeccapurple;
        background-image: none !important;
+    }
+    
+    .section-clients {
+        padding: 5.6rem 0 !important;
+    }
+
+    .logo-container {
+        .client-logo {
+            height: 1.2rem !important;
+        }
     }
 }
 
