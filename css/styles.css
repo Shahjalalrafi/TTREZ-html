@@ -330,6 +330,14 @@ img {
   padding: 32px 0;
 }
 
+.footer {
+  background-color: #000;
+  padding: 20px 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
 .section-navbar {
   border-bottom: 1px solid #ddd;
 }
